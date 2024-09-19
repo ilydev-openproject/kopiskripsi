@@ -8,3 +8,35 @@
     color: $light;
   }
 }
+.btn-light {
+  border: 2px solid $dark;
+  &:hover {
+    background: $light;
+    border: 2px solid $light;
+    color: $dark;
+  }
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .title {
+    font-size: 17.9px;
+    background: $primary;
+    padding: 2px 4px;
+    border-radius: 12px;
+    color: $dark;
+    margin-bottom: 12px;
+  }
+  h2 {
+    font-size: 29px;
+    color: $dark;
+    span {
+      color: $secondary;
+    }
+  }
+}

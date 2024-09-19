@@ -7,6 +7,7 @@
   background: $light;
   @media screen and (max-width: 576px) {
     height: auto;
+    padding-top: 150px;
   }
   h2 {
     font-size: 24px;
@@ -33,29 +34,6 @@
   background: #fff;
   height: auto;
   padding: 24px 0;
-  .heading {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    .title {
-      font-size: 17.9px;
-      background: $primary;
-      padding: 2px 4px;
-      border-radius: 12px;
-      color: $dark;
-      margin-bottom: 12px;
-    }
-    h2 {
-      font-size: 29px;
-      color: $dark;
-      span {
-        color: $secondary;
-      }
-    }
-  }
   .card {
     border: none;
     .card-title {
@@ -64,6 +42,101 @@
     }
     span {
       font-size: 12.3px;
+    }
+  }
+}
+
+.cta-sec {
+  background: $dark;
+  h2 {
+    color: $light;
+    font-size: 24px;
+  }
+  p {
+    color: $light;
+    font-size: 14.8px;
+  }
+}
+
+.product {
+  .card {
+    background: $light;
+    border: none;
+    .card-body {
+      img {
+        width: 100%;
+      }
+      .name {
+        font-size: 17.9px;
+        background: $dark;
+        color: $light;
+        width: fit-content;
+        padding: 0 12px;
+      }
+      .flavour {
+        font-size: 17.9px;
+        font-weight: 500;
+        color: $dark;
+        border-bottom: 2px solid $dark;
+      }
+      p {
+        font-size: 12px;
+      }
+      .price {
+        span {
+          font-size: 29px;
+          font-weight: 700;
+          color: $dark;
+        }
+      }
+    }
+  }
+}
+.store {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  padding: 24px 0;
+  .maps {
+    height: 600px;
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .list-store {
+    width: 400px;
+    height: fit-content;
+    margin: 0;
+    .store-loc {
+      background: $light;
+      height: fit-content;
+      margin: 12px;
+      padding: 12px 24px;
+    }
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+footer {
+  background: $dark;
+  color: $light;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    color: $light;
+  }
+  .social {
+    span {
+      font-family: "Inria Sans", system-ui;
     }
   }
 }
