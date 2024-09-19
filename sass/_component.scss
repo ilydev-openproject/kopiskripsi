@@ -1,0 +1,10 @@
+@import "color";
+
+.btn {
+  border: 2px solid $dark;
+  &:hover {
+    background: $dark;
+    border: 2px solid $dark;
+    color: $light;
+  }
+}

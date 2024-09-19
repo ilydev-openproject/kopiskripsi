@@ -1,0 +1,32 @@
+.navbar {
+  height: 62px;
+  background: rgba($color: #fff, $alpha: 0.5);
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  z-index: 999;
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  // @media screen and (max-width: 576px) {
+  //   position: static;
+  // }
+  .navbar-brand {
+    padding: 12px 0;
+    width: auto;
+    height: 62px;
+    .round {
+      width: 42px;
+      height: 42px;
+    }
+    .type {
+      height: 32px;
+    }
+  }
+}
+.nav-link {
+  color: #001213;
+  margin: 0 12px;
+}

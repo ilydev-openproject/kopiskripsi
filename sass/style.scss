@@ -1,0 +1,13 @@
+// import
+@import "navbar";
+@import "homepage";
+@import "color";
+@import "component";
+
+body {
+  background: #fff;
+  font-family: "Inria Sans", system-ui;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
