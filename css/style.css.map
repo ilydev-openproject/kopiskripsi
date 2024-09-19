@@ -11,9 +11,13 @@
   overflow: hidden;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+  padding: 0;
+  margin: 0;
 }
 .navbar .navbar-brand {
-  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
   height: 62px;
 }
